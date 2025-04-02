@@ -8,8 +8,8 @@ const Header: React.FC = () => {
       <div className="flex items-center justify-center max-w-md mx-auto">
         <div className="flex items-center">
           <img 
-            src="https://user-images-staging.langtail.com/gk81f7xnynelj927er5351fm/q2px9jxr6y8gxvzg8ktm9pa5/bvVuGA2QZtZ-cxxMLsMwq/tmpa71ryyjd.webp" 
-            alt="BorderBuddy Logo" 
+            src="https://assets.macaly-user-data.dev/jfl9hdqnp4bk63xoek9djime/tnq3a634ahlm397oaafuvj2c/Wzy8A5MNH9YBx0zAUDvAe/map.png" 
+            alt="BorderBuddy Map Logo" 
             className="w-12 h-12 mr-3"
           />
           <div>
