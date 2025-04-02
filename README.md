@@ -100,14 +100,9 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 📬 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/border-buddy](https://github.com/yourusername/border-buddy)
-
 ## 🙏 Acknowledgments
 
 - Country data compiled from various geographical sources
 - Flag emojis provided by Unicode
 - Special thanks to all geography enthusiasts who test and improve the game
+- Created with [Macaly](https://macaly.com) - Build beautiful web apps with AI
