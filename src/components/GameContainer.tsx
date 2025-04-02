@@ -105,6 +105,13 @@ const GameContainer: React.FC = () => {
   if (!gameStarted) {
     return (
       <div className="flex flex-col items-center justify-center h-full p-4 text-center">
+        <div className="w-full max-w-lg mb-6 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="https://assets.macaly-user-data.dev/jfl9hdqnp4bk63xoek9djime/tnq3a634ahlm397oaafuvj2c/skimQWJImXIz1MNca0RcO/tmp0mjbe9t2.webp" 
+            alt="European map with borders" 
+            className="w-full h-auto"
+          />
+        </div>
         <h1 className="text-3xl font-bold mb-4">European Neighbors</h1>
         <p className="mb-6 text-muted-foreground">
           Test your knowledge of European geography! Select all countries that share a border with the target country.
