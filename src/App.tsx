@@ -1,5 +1,6 @@
 import GameContainer from './components/GameContainer';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <GameContainer />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
