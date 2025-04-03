@@ -34,12 +34,19 @@ const GameContainer: React.FC = () => {
       code !== newCountry.code && !newCountry.neighbors.includes(code)
     );
     
+    // Always include ALL neighbors
+    const allNeighbors = [...newCountry.neighbors];
+    
+    // Calculate how many non-neighbors to add (max 15 total options to keep UI manageable)
+    const maxTotalOptions = 15;
+    const nonNeighborsToAdd = Math.max(0, Math.min(maxTotalOptions - allNeighbors.length, 10));
+    
     // Randomly select some non-neighbors
     const shuffledNonNeighbors = [...nonNeighbors].sort(() => 0.5 - Math.random());
-    const selectedNonNeighbors = shuffledNonNeighbors.slice(0, Math.min(10 - newCountry.neighbors.length, nonNeighbors.length));
+    const selectedNonNeighbors = shuffledNonNeighbors.slice(0, nonNeighborsToAdd);
     
     // Combine neighbors and non-neighbors, then shuffle
-    const combinedOptions = [...newCountry.neighbors, ...selectedNonNeighbors];
+    const combinedOptions = [...allNeighbors, ...selectedNonNeighbors];
     setOptions(combinedOptions.sort(() => 0.5 - Math.random()));
     
     // Reset game state
